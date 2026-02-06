@@ -156,7 +156,7 @@ export default function Resume() {
                   key={item.href}
                   href={item.href}
                   onClick={(e) => scrollToSection(e, item.href)}
-                  className="text-sm font-medium text-gray-600 hover:text-blue-600 transition-colors"
+                  className="text-[0.9375rem] font-medium text-gray-600 hover:text-blue-600 transition-colors"
                   data-testid={`link-nav-${item.label.toLowerCase()}`}
                 >
                   {item.label}
@@ -200,7 +200,7 @@ export default function Resume() {
                 data-testid="link-email"
               >
                 <Mail className="w-5 h-5 text-gray-400 group-hover:text-blue-600 transition-colors" />
-                <span className="text-sm">ela.sharda@gmail.com</span>
+                <span className="text-[0.9375rem]">ela.sharda@gmail.com</span>
               </a>
               <a
                 href="https://www.linkedin.com/in/elamalani/"
@@ -210,7 +210,7 @@ export default function Resume() {
                 data-testid="link-linkedin"
               >
                 <SiLinkedin className="w-5 h-5 text-[#0A66C2] group-hover:text-blue-600 transition-colors" />
-                <span className="text-sm">LinkedIn</span>
+                <span className="text-[0.9375rem]">LinkedIn</span>
                 <ExternalLink className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
               </a>
               <a
@@ -219,7 +219,7 @@ export default function Resume() {
                 data-testid="link-phone"
               >
                 <Phone className="w-5 h-5 text-gray-400 group-hover:text-blue-600 transition-colors" />
-                <span className="text-sm">425.615.1843</span>
+                <span className="text-[0.9375rem]">425.615.1843</span>
               </a>
             </div>
           </div>
@@ -269,7 +269,7 @@ export default function Resume() {
                           <h3 className="text-lg font-semibold text-gray-900">
                             {job.role}
                           </h3>
-                          <p className="text-sm text-gray-500">
+                          <p className="text-[0.9375rem] text-gray-500">
                             {job.company} <span className="mx-2">•</span> {job.period}
                           </p>
                         </div>
@@ -378,7 +378,7 @@ export default function Resume() {
 
       <footer className="border-t border-gray-100 py-6">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-sm text-gray-500">
+          <p className="text-[0.9375rem] text-gray-500">
             © {new Date().getFullYear()} Ela Malani. All rights reserved.
           </p>
         </div>
